@@ -7,7 +7,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function App() {
   return <div className="container"><h1>Priyanshu SINGH</h1>
-    <p>I am priyanshu Singh from uttar pradesh gorakhpur ,compeleted my Btech in computer science and engineering from B.P.P.I.T.U, Gorakhpur</p>
+    <p>I am priyanshu Singh from uttar pradesh gorakhpur ,compeleted my Btech in computer science and engineering from Nit Hamirpur, Gorakhpur</p>
     <ul>
       <li>Goa </li>
       <li>Himachal Pradesh</li>

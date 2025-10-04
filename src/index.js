@@ -1,18 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import './index.css';
-// import App from './App';
+import './App.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
 
 function App() {
-  return <ul><li>Priyanshu</li> <li>Krishna</li></ul>
+  return <div className="container"><h1>Priyanshu SINGH</h1>
+    <p>I am priyanshu Singh from uttar pradesh gorakhpur ,compeleted my Btech in computer science and engineering from B.P.P.I.T.U, Gorakhpur</p>
+    <ul>
+      <li>Goa </li>
+      <li>Himachal Pradesh</li>
+      <li>Japan</li>
+      <li>China</li>
+    </ul>
+  </div >
+
 }
 // the HTML inside the render thing is called jsx and we can only pass single element to the render function.
 root.render(<App />)

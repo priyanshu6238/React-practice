@@ -9,8 +9,13 @@ function Footer() {
     name = "Riyanshu Singh";
   }
 
+  const styles = {
+    color: "black",
+    textAlign: "center",
+    backgroungColor: "black",
+  };
   return (
-    <div>
+    <div style={styles}>
       <input type="checkbox" />
       <label>Accept Terms and Conditions {name}</label>
     </div>

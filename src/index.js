@@ -1,13 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './App.css';
-import reportWebVitals from './reportWebVitals';
-import Myapp from './Myapp';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./App.css";
+import reportWebVitals from "./reportWebVitals";
+// import Myapp from "./components/Myapp";
+import App from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // the HTML inside the render thing is called jsx and we can only pass single element to the render function.
-root.render(<Myapp />)
+root.render(<App />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

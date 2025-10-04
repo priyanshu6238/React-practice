@@ -1,10 +1,19 @@
 import React from "react";
 
 function Footer() {
+  let name = "priyanshu Singh";
+  const date = 10;
+  if (date < 10) {
+    name = "Deepanshu Singh";
+  } else {
+    name = "Riyanshu Singh";
+  }
+
   return (
-    <footer>
-      <p>Copyright @2024</p>
-    </footer>
+    <div>
+      <input type="checkbox" />
+      <label>Accept Terms and Conditions {name}</label>
+    </div>
   );
 }
 

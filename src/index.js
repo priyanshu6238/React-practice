@@ -4,11 +4,13 @@ import "./App.css";
 import reportWebVitals from "./reportWebVitals";
 // import Myapp from "./components/Myapp";
 import App from "./App";
+import Class_component from "./class_component";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // the HTML inside the render thing is called jsx and we can only pass single element to the render function.
-root.render(<App />);
+root.render(<Class_component name={"priyanshu"} />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

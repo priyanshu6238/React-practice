@@ -1,6 +1,6 @@
 import React from "react";
 
-function Myapp() {
+function Myapp(props) {
   return (
     <div className="container">
       <h1>Priyanshu SINGH</h1>
@@ -9,10 +9,19 @@ function Myapp() {
         in computer science and engineering from Nit Hamirpur, Gorakhpur
       </p>
       <ul>
-        <li>Goa </li>
-        <li>Himachal Pradesh</li>
+        <li>
+          <span>
+            Location : {props.location}
+          </span>
+
+          <span>
+            Question : {props.question}
+          </span>
+
+        </li>
+        {/* <li>Himachal Pradesh</li>
         <li>Japan</li>
-        <li>China</li>
+        <li>China</li> */}
       </ul>
     </div>
   );

@@ -13,6 +13,7 @@ function Myapp(props) {
           <span>
             Location : {props.location}
           </span>
+          <br />
 
           <span>
             Question : {props.question}

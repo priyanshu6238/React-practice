@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./App.css";
 import reportWebVitals from "./reportWebVitals";
+import Project_on_click from "./Project_On_click";
 // import Myapp from "./components/Myapp";
 import App from "./App";
 import Class_component from "./class_component";
@@ -10,7 +11,7 @@ import Class_component from "./class_component";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // the HTML inside the render thing is called jsx and we can only pass single element to the render function.
-root.render(<Class_component name={"priyanshu"} />);
+root.render(<Project_on_click />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

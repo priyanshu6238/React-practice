@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./App.css";
 import reportWebVitals from "./reportWebVitals";
 import Project_on_click from "./Project_On_click";
+import Project_on_click from "./Project_On_click";
 // import Myapp from "./components/Myapp";
 import Project_loading from "./Project_loading"
 import App from "./App";

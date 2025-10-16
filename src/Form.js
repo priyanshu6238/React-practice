@@ -6,12 +6,16 @@ class Form extends Component {
     this.state = {
       name: "",
       email: "",
+      isFriendly: true,
+      fav_color: "blue",
     };
   }
 
   handleChange = (event) => {
-    const { name, value } = event.target;
-    this.setState({ [name]: value });
+    const { name, value, checked, type } = event.target;
+    type === "checkbox"
+      ? this.setState({ [name]: checked })
+      : this.setState({ [name]: value });
   };
 
   render() {
@@ -32,9 +36,28 @@ class Form extends Component {
           value={this.state.email}
           onChange={this.handleChange}
         />
+        <br />
+        <input
+          type="checkbox"
+          name="isFriendly"
+          checked={this.state.isFriendly}
+          onChange={this.handleChange}
+        />
+
+        <select
+          value={this.state.fav_color}
+          name="fav_color"
+          onChange={this.handleChange}
+        >
+          <option value="blue">Blue</option>
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="yellow">Yellow</option>
+        </select>
+
         <button type="submit">Submit</button>
         <h1>
-          {this.state.name} {this.state.email}
+          {this.state.name} {this.state.email} {this.state.fav_color}
         </h1>
       </form>
     );

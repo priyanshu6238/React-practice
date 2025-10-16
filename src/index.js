@@ -9,11 +9,12 @@ import ReactDOM from "react-dom/client";
 // import App from "./App";
 // import Class_component from "./class_component";
 import Api_fetch from "./Api_fetch";
+import Form from "./Form";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // the HTML inside the render thing is called jsx and we can only pass single element to the render function.
-root.render(<Api_fetch />);
+root.render(<Form />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

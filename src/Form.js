@@ -50,7 +50,7 @@ class Form extends Component {
           onChange={this.handleChange}
         >
           <option value="blue">Blue</option>
-          <option value="red">Red</option>
+          <option value="pink">pink</option>
           <option value="green">Green</option>
           <option value="yellow">Yellow</option>
         </select>
